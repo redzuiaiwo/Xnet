@@ -17,9 +17,9 @@ if (body) {
     
       obj.data.song_name = originalName + "-" + originalSinger;
       // 将歌手改为固定文本“点击播放—>”
-      obj.data.song_singer = "z先生定制电台>>>";
+      obj.data.song_singer = "你若喜欢海 我便带你浪：腾讯VIP私人电台>>>";
       // 修改封面，这个链接中，你只需要改一下后面的uin=你的qq号码，其它不要动。保存即可。会调用你的qq号头像。
-      obj.data.cover = "http://q4.qlogo.cn/headimg_dl?dst_uin=1008993&spec=640";
+      obj.data.cover = "https://uy.wzznft.com/i/2025/03/10/qh70y0.jpg";
     }
     $done({body: JSON.stringify(obj)});
   } catch (e) {
